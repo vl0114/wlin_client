@@ -10,7 +10,7 @@ find_package(Boost REQUIRED system)
 include_directories(${Boost_INCLUDE_DIR})
 
 
-add_executable(wlin_client main.cpp Application.cpp Application.h Network.cpp Network.h
+add_executable(wlin_client main.cpp Application.cpp Application.h
         LinuxStatus/Linuxstatus.cpp LinuxStatus/Linuxstatus.h StatusJSON/LsJson.cpp StatusJSON/LsJson.h)
 
 target_link_libraries (wlin_client ${CMAKE_THREAD_LIBS_INIT})

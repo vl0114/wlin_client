@@ -31,6 +31,6 @@ $ make
 - boost
 - <standard c++ 17>을 지원하는 컴파일러
   * gcc-8 이상
-  * clang-8 이상  (*)
+  * *clang-8 이상
   * ...
 - cmake 3.10.2 이상

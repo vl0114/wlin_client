@@ -1,5 +1,6 @@
 //
 // Created by vl_sys on 2019-11-29.
+// 프로그램 구동부 입니다.
 //
 
 #ifndef SERVERSOCKETINFO_APPLICATION_H
@@ -23,8 +24,6 @@
 #include "StatusJSON/LsJson.h"
 
 using boost::property_tree::ptree;
-
-
 using namespace boost::asio;
 using namespace boost::system;
 using namespace std;
@@ -56,8 +55,8 @@ public:
     LinuxStatusClient(io_service &_io_service, const string& setting);
 
     void connect();
-    void connect_err(boost::system::error_code& err);
-    void connect_err(const string& msg);
+    static void connect_err(boost::system::error_code& err);
+    static void connect_err(const string& msg);
     void server_handshake();
     void service();
 };
@@ -76,34 +75,6 @@ private:
     string client_name;
 
 };
-
-
-//PyObject* GetSystem
-
-/*
-class ThreadPool {
-public:
-    ThreadPool(size_t num_threads);
-    ~ThreadPool();
-
-    // job 을 추가한다.
-    template <class F, class... Args>
-    std::future<typename std::result_of<F(Args...)>::type> EnqueueJob(
-            F&& f, Args&&... args);
-
-private:
-    size_t num_threads_;
-    std::vector<std::thread> worker_threads_;
-    std::queue<std::function<void()>> jobs_;
-    std::condition_variable cv_job_q_;
-    std::mutex m_job_q_;
-
-    bool stop_all;
-
-    void WorkerThread();
-};
-*/
-
 
 
 #endif //SERVERSOCKETINFO_APPLICATION_H

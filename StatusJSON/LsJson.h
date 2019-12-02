@@ -1,6 +1,8 @@
 //
 // Created by vl_sys on 2019-12-03.
 //
+// 리눅스의 상태를 json으로 만듭니다.
+//
 
 #ifndef SERVERSOCKETINFO_LSJSON_H
 #define SERVERSOCKETINFO_LSJSON_H

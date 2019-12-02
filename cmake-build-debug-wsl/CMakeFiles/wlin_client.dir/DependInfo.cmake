@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Application.cpp" "/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles/wlin_client.dir/Application.cpp.o"
   "/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/LinuxStatus/Linuxstatus.cpp" "/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o"
-  "/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Network.cpp" "/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles/wlin_client.dir/Network.cpp.o"
   "/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/StatusJSON/LsJson.cpp" "/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o"
   "/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/main.cpp" "/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles/wlin_client.dir/main.cpp.o"
   )

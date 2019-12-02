@@ -177,33 +177,6 @@ LinuxStatus/Linuxstatus.cpp.s:
 	$(MAKE) -f CMakeFiles/wlin_client.dir/build.make CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.s
 .PHONY : LinuxStatus/Linuxstatus.cpp.s
 
-Network.o: Network.cpp.o
-
-.PHONY : Network.o
-
-# target to build an object file
-Network.cpp.o:
-	$(MAKE) -f CMakeFiles/wlin_client.dir/build.make CMakeFiles/wlin_client.dir/Network.cpp.o
-.PHONY : Network.cpp.o
-
-Network.i: Network.cpp.i
-
-.PHONY : Network.i
-
-# target to preprocess a source file
-Network.cpp.i:
-	$(MAKE) -f CMakeFiles/wlin_client.dir/build.make CMakeFiles/wlin_client.dir/Network.cpp.i
-.PHONY : Network.cpp.i
-
-Network.s: Network.cpp.s
-
-.PHONY : Network.s
-
-# target to generate assembly for a file
-Network.cpp.s:
-	$(MAKE) -f CMakeFiles/wlin_client.dir/build.make CMakeFiles/wlin_client.dir/Network.cpp.s
-.PHONY : Network.cpp.s
-
 StatusJSON/LsJson.o: StatusJSON/LsJson.cpp.o
 
 .PHONY : StatusJSON/LsJson.o
@@ -273,9 +246,6 @@ help:
 	@echo "... LinuxStatus/Linuxstatus.o"
 	@echo "... LinuxStatus/Linuxstatus.i"
 	@echo "... LinuxStatus/Linuxstatus.s"
-	@echo "... Network.o"
-	@echo "... Network.i"
-	@echo "... Network.s"
 	@echo "... StatusJSON/LsJson.o"
 	@echo "... StatusJSON/LsJson.i"
 	@echo "... StatusJSON/LsJson.s"

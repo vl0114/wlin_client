@@ -1,8 +1,9 @@
 //
 // Created by vl_sys on 2019-11-29.
 //
-// require standard c++17
-// at least g++-8 or clang++-8
+// 리눅스의 상태를 얻는 class들 입니다.
+// c++17을 지원하는 컴파일러가 필요 합니다.
+// ex) g++-8 or clang++-8
 //
 //
 

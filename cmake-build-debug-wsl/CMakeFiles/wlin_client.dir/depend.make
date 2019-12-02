@@ -9,9 +9,6 @@ CMakeFiles/wlin_client.dir/Application.cpp.o: ../StatusJSON/LsJson.h
 CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o: ../LinuxStatus/Linuxstatus.cpp
 CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o: ../LinuxStatus/Linuxstatus.h
 
-CMakeFiles/wlin_client.dir/Network.cpp.o: ../Network.cpp
-CMakeFiles/wlin_client.dir/Network.cpp.o: ../Network.h
-
 CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o: ../LinuxStatus/Linuxstatus.h
 CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o: ../StatusJSON/LsJson.cpp
 CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o: ../StatusJSON/LsJson.h

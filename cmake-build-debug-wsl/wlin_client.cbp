@@ -96,12 +96,6 @@
 		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/LinuxStatus/Linuxstatus.h">
 			<Option target="wlin_client"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Network.cpp">
-			<Option target="wlin_client"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Network.h">
-			<Option target="wlin_client"/>
-		</Unit>
 		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/StatusJSON/LsJson.cpp">
 			<Option target="wlin_client"/>
 		</Unit>

@@ -105,33 +105,9 @@ CMakeFiles/wlin_client.dir/Application.cpp.o.provides: CMakeFiles/wlin_client.di
 CMakeFiles/wlin_client.dir/Application.cpp.o.provides.build: CMakeFiles/wlin_client.dir/Application.cpp.o
 
 
-CMakeFiles/wlin_client.dir/Network.cpp.o: CMakeFiles/wlin_client.dir/flags.make
-CMakeFiles/wlin_client.dir/Network.cpp.o: ../Network.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wlin_client.dir/Network.cpp.o"
-	/usr/bin/clang++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wlin_client.dir/Network.cpp.o -c /mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Network.cpp
-
-CMakeFiles/wlin_client.dir/Network.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wlin_client.dir/Network.cpp.i"
-	/usr/bin/clang++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Network.cpp > CMakeFiles/wlin_client.dir/Network.cpp.i
-
-CMakeFiles/wlin_client.dir/Network.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wlin_client.dir/Network.cpp.s"
-	/usr/bin/clang++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Network.cpp -o CMakeFiles/wlin_client.dir/Network.cpp.s
-
-CMakeFiles/wlin_client.dir/Network.cpp.o.requires:
-
-.PHONY : CMakeFiles/wlin_client.dir/Network.cpp.o.requires
-
-CMakeFiles/wlin_client.dir/Network.cpp.o.provides: CMakeFiles/wlin_client.dir/Network.cpp.o.requires
-	$(MAKE) -f CMakeFiles/wlin_client.dir/build.make CMakeFiles/wlin_client.dir/Network.cpp.o.provides.build
-.PHONY : CMakeFiles/wlin_client.dir/Network.cpp.o.provides
-
-CMakeFiles/wlin_client.dir/Network.cpp.o.provides.build: CMakeFiles/wlin_client.dir/Network.cpp.o
-
-
 CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o: CMakeFiles/wlin_client.dir/flags.make
 CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o: ../LinuxStatus/Linuxstatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o"
 	/usr/bin/clang++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o -c /mnt/c/Users/vl_sys/Desktop/proj/wlin_client/LinuxStatus/Linuxstatus.cpp
 
 CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.i: cmake_force
@@ -155,7 +131,7 @@ CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o: CMakeFiles/wlin_client.dir/flags.make
 CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o: ../StatusJSON/LsJson.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o"
 	/usr/bin/clang++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o -c /mnt/c/Users/vl_sys/Desktop/proj/wlin_client/StatusJSON/LsJson.cpp
 
 CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.i: cmake_force
@@ -181,7 +157,6 @@ CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o.provides.build: CMakeFiles/wl
 wlin_client_OBJECTS = \
 "CMakeFiles/wlin_client.dir/main.cpp.o" \
 "CMakeFiles/wlin_client.dir/Application.cpp.o" \
-"CMakeFiles/wlin_client.dir/Network.cpp.o" \
 "CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o" \
 "CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o"
 
@@ -190,13 +165,12 @@ wlin_client_EXTERNAL_OBJECTS =
 
 wlin_client: CMakeFiles/wlin_client.dir/main.cpp.o
 wlin_client: CMakeFiles/wlin_client.dir/Application.cpp.o
-wlin_client: CMakeFiles/wlin_client.dir/Network.cpp.o
 wlin_client: CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o
 wlin_client: CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o
 wlin_client: CMakeFiles/wlin_client.dir/build.make
 wlin_client: /usr/lib/x86_64-linux-gnu/libboost_system.a
 wlin_client: CMakeFiles/wlin_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable wlin_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable wlin_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wlin_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -206,7 +180,6 @@ CMakeFiles/wlin_client.dir/build: wlin_client
 
 CMakeFiles/wlin_client.dir/requires: CMakeFiles/wlin_client.dir/main.cpp.o.requires
 CMakeFiles/wlin_client.dir/requires: CMakeFiles/wlin_client.dir/Application.cpp.o.requires
-CMakeFiles/wlin_client.dir/requires: CMakeFiles/wlin_client.dir/Network.cpp.o.requires
 CMakeFiles/wlin_client.dir/requires: CMakeFiles/wlin_client.dir/LinuxStatus/Linuxstatus.cpp.o.requires
 CMakeFiles/wlin_client.dir/requires: CMakeFiles/wlin_client.dir/StatusJSON/LsJson.cpp.o.requires
 

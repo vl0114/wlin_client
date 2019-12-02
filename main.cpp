@@ -1,11 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Application.h"
-#include "LinuxStatus/Linuxstatus.h"
-#include <filesystem>
-#include <unistd.h>
 #include <boost/asio.hpp>
-#include "StatusJSON/LsJson.h"
 
 using namespace std;
 using namespace boost::asio;

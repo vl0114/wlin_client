@@ -7,15 +7,7 @@
 #define SERVERSOCKETINFO_APPLICATION_H
 #include <boost/asio.hpp>
 #include <thread>
-#include <chrono>
-#include <condition_variable>
 #include <cstdio>
-#include <functional>
-#include <future>
-#include <mutex>
-#include <queue>
-#include <vector>
-#include <list>
 #include <string>
 #include <utility>
 #include <iostream>

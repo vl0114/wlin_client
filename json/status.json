@@ -1,0 +1,37 @@
+{
+  "type": "status",
+  "cpu": [
+    {
+      "id": 0,
+      "vendor": "",
+      "model": "",
+      "hz": 0,
+      "cache": 0,
+      "physics_id": 0,
+      "core_id": 0,
+      "cores": 0
+    }
+  ],
+  "mem": {
+    "total": 0,
+    "free": 0,
+    "shared": 0,
+    "buffer": 0,
+    "total_swap": 0,
+    "free_swap": 0,
+    "total_high_mem": 0,
+    "available_high_mem": 0,
+    "mem_unit": 0
+  },
+  "procs": [
+    {
+      "pid": 0,
+      "ppid": 0,
+      "pgrp": 0,
+      "session": 0,
+      "tty": 0,
+      "state": "",
+      "name": ""
+    }
+  ]
+}

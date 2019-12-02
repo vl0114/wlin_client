@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="wlin_client"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wlin_client">
+				<Option output="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/wlin_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/include/clang/8.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-8/lib/clang/8.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 wlin_client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wlin_client/fast">
+				<Option output="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/wlin_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/include/clang/8.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-8/lib/clang/8.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 wlin_client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Application.cpp">
+			<Option target="wlin_client"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Application.h">
+			<Option target="wlin_client"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/LinuxStatus/Linuxstatus.cpp">
+			<Option target="wlin_client"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/LinuxStatus/Linuxstatus.h">
+			<Option target="wlin_client"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Network.cpp">
+			<Option target="wlin_client"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/Network.h">
+			<Option target="wlin_client"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/StatusJSON/LsJson.cpp">
+			<Option target="wlin_client"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/StatusJSON/LsJson.h">
+			<Option target="wlin_client"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/main.cpp">
+			<Option target="wlin_client"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/vl_sys/Desktop/proj/wlin_client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

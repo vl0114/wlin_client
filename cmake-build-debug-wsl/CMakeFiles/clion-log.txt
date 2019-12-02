@@ -1,0 +1,7 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang-8 -DCMAKE_CXX_COMPILER=/usr/bin/clang++-8 -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/vl_sys/Desktop/proj/wlin_client
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/vl_sys/Desktop/proj/wlin_client/cmake-build-debug-wsl

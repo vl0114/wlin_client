@@ -1,0 +1,1 @@
+/usr/bin/clang++-8  -g   CMakeFiles/ServerSocketInfo.dir/main.cpp.o CMakeFiles/ServerSocketInfo.dir/Application.cpp.o CMakeFiles/ServerSocketInfo.dir/Network.cpp.o CMakeFiles/ServerSocketInfo.dir/LinuxStatus/Linuxstatus.cpp.o CMakeFiles/ServerSocketInfo.dir/StatusJSON/LsJson.cpp.o  -o ServerSocketInfo -lpthread /usr/lib/x86_64-linux-gnu/libboost_system.a 

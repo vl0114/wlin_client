@@ -54,8 +54,8 @@ void LinuxStatusClient::server_handshake() {
     boost::property_tree::write_json(s, hsk_root);
 
     _socket->write_some(buffer(s.str()));
-    _socket->read_some(buffer(r, 100));
-    if(!strcmp("ok", r) || !strcmp("ok\n", r))
+    _socket->read_some(buffer(r, 2));
+    if(!strcmp("ok", r))
     {
         is_connected = true;
     }
@@ -75,6 +75,7 @@ void LinuxStatusClient::service() {
 
     while (true)
     {
+        memset(buff, 0, 2048);
         boost::system::error_code err;
         _socket->read_some(buffer(buff, 2048), err);
         if(err)
@@ -87,7 +88,7 @@ void LinuxStatusClient::service() {
 
         string msg(buff);
         stringstream s;
-        // cout << msg << endl;
+         cout << msg << endl;
         s.str("");
         s << msg;
         ptree req;
@@ -99,7 +100,9 @@ void LinuxStatusClient::service() {
             auto type = req.get<string>("type");
             if(type == "request") // 정보 요청
             {
+                cout << "req" << endl;
                 auto req_type = req.get<string>("req");
+                cout << req_type << endl;
                 if(req_type == "cpu")
                 {
                     rj.getCpus(rep);
@@ -113,6 +116,7 @@ void LinuxStatusClient::service() {
                 else if(req_type == "proc")
                 {
                     rj.getProcs(rep);
+                    cout << rep <<endl;
                     _socket->write_some(buffer(rep));
                 }
                 else if(req_type == "name")

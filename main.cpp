@@ -9,6 +9,7 @@ using boost::asio::ip::tcp;
 
 
 int main() {
+
     io_service service;
 
     LinuxStatusClient app(service, "./setting.json");
@@ -19,14 +20,19 @@ int main() {
         exit(-1);
     }
 
-    app.connect();
-
-    thread t;
-    if(app.isConnected())
+    while (true)
     {
-        t = thread(&LinuxStatusClient::service, &app);
-        t.join();
+        app.connect();
+
+        thread t;
+        if(app.isConnected())
+        {
+            t = thread(&LinuxStatusClient::service, &app);
+            t.join();
+        }
+        sleep(1);
     }
+
 
     return 0;
 }

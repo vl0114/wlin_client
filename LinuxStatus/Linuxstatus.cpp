@@ -108,16 +108,16 @@ LinuxStats::SysStatus::SysStatus() {
     sysinfo(&info);
 }
 
-ulong LinuxStats::SysStatus::GetLoads1() {
-    return info.loads[0];
+double LinuxStats::SysStatus::GetLoads1() {
+    return info.loads[0] / ((1 << SI_LOAD_SHIFT) * 1.0);
 }
 
-ulong LinuxStats::SysStatus::GetLoads5() {
-    return info.loads[1];
+double LinuxStats::SysStatus::GetLoads5() {
+    return info.loads[1] / ((1 << SI_LOAD_SHIFT) * 1.0);
 }
 
-ulong LinuxStats::SysStatus::GetLoads15() {
-    return info.loads[2];
+double LinuxStats::SysStatus::GetLoads15() {
+    return info.loads[2] / ((1 << SI_LOAD_SHIFT) * 1.0);
 }
 
 ulong LinuxStats::SysStatus::GetTotalRam() {

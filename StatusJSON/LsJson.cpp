@@ -52,7 +52,7 @@ void LsJson::getCpus(string &json) {
     ptree cpu_root, cpu_list;
     cpu_root.put("type", "cpu");
     cpu_root.put("time", std::time(nullptr));
-
+    cout << ss.GetLoads1();
     cpu_root.put("load1", ss.GetLoads1());
     cpu_root.put("load5", ss.GetLoads5());
     cpu_root.put("load15", ss.GetLoads15());

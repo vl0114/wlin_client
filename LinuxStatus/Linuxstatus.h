@@ -141,9 +141,9 @@ namespace LinuxStats {
 
     public:
         SysStatus();
-        ulong GetLoads1();
-        ulong GetLoads5();
-        ulong GetLoads15();
+        double GetLoads1();
+        double GetLoads5();
+        double GetLoads15();
         ulong GetTotalRam();
         ulong GetFreeRam();
         ulong GetSharedRam();
